@@ -81,7 +81,7 @@ const About = () => {
   }}
 >
   <img
-    src="/pp.jpg"
+    src={`${process.env.PUBLIC_URL}/pp.jpg`}
     alt="Profile"
     style={{
       width: '100%',

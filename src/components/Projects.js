@@ -6,37 +6,30 @@ import LaunchIcon from '@mui/icons-material/Launch';
 const Projects = () => {
   const projects = [
     {
-      title: 'Network Intrusion Detection via Clustering',
-      description:
-        'Unsupervised K-Means pipeline to flag abnormal SSH login patterns from enterprise logs; ~85% accuracy on brute-force intrusion attempts via engineered features (geo-IP, failures, session duration) and analyst-ready cluster visualizations.',
-      tech: ['Python', 'Scikit-learn', 'Pandas', 'Matplotlib'],
-      github: '#',
-      demo: '#',
-    },
-    {
-      title: 'Distributed Logging & Monitoring Platform',
-      description:
-        'Microservices-aware logging with Prisma + Postgres for centralized, queryable structured logs. Added correlation IDs, searchable views, and AWS CloudWatch alerts—cut incident resolution time by ~60%.',
-      tech: ['Node.js', 'Express.js', 'Prisma', 'PostgreSQL', 'Docker', 'AWS EC2', 'CloudWatch'],
-      github: '#',
-      demo: '#',
-    },
-    {
-      title: 'Fable Forge',
-      description:
-        'Real-time, browser-based multiplayer storytelling (3–6 players) over WebSockets with voting rounds. Shipped profiles, replayable histories, and genre prompts that boosted engagement in public playtests.',
-      tech: ['React', 'Node.js', 'Socket.io', 'PostgreSQL', 'Heroku'],
-      github: '#',
-      demo: '#',
-    },
-    {
-      title: 'Skill Link',
-      description:
-        'Full-stack recruitment intelligence: hybrid recommenders (collab filtering + MF) + LLMs to match candidates to roles with rationale. Semantic search via embeddings/pgvector; 25+ AI search modes and an insights dashboard.',
-      tech: ['React', 'Node.js', 'Express', 'PostgreSQL (pgvector)', 'LangChain', 'OpenAI API', 'FastAPI', 'Docker', 'AWS S3'],
-      github: '#',
-      demo: '#',
-    },
+  title: 'Deep Learning-Based Optical Character Recognition',
+  description:
+    'Designed and implemented a handwritten digit/character recognition system using Python and machine learning, training on scanned image datasets with convolutional neural networks. Engineered custom preprocessing (denoising, deskewing) and applied data augmentation for robust digit extraction. Achieved 82.5% accuracy on test datasets.',
+  tech: ['Python', 'TensorFlow/Keras', 'OpenCV', 'NumPy'],
+  github: '#',
+  demo: '#',
+},
+{
+  title: '3D Multiplayer RPG with WebGL and Adaptive AI',
+  description:
+    'Developed an online multi-player role-playing game in HTML5 with JavaScript and NoSQL Database, WebGL and Three.js, featuring fully interactive 3D environments. Programmed adaptive AI-driven NPCs using finite state machines and reinforcement learning to deliver dynamic, non-repetitive in-game experiences.',
+  tech: ['JavaScript', 'WebGL', 'Three.js', 'NoSQL'],
+  github: '#',
+  demo: '#',
+},
+{
+  title: 'Tall Tales',
+  description:
+    'Developed a browser-based multiplayer app where 3–6 users co-create stories in real time via WebSockets, with voting mechanics guiding narrative progression each round. Implemented user profiles, replayable histories, and genre-based prompts, increasing engagement and repeat sessions during public playtests.',
+  tech: ['Node.js', 'React', 'WebSockets', 'PostgreSQL'],
+  github: '#',
+  demo: '#',
+}
+
   ];
 
   return (

@@ -30,30 +30,39 @@ function a11yProps(index) {
 // Experience content
 const experiences = [
   {
-    company: 'OREGON STATE UNIVERSITY',
-    role: 'Student Developer @ OSU',
-    duration: 'Dec 2023 – Jun 2025 | Corvallis, OR',
-    details: [
-      'Developed and maintained a survey web application using React, Node.js, and MongoDB, enabling faculty to gather 5,700+ student responses each term across 80+ courses for curriculum improvement.',
-      'Reduced analysis time by 60% by building RESTful APIs in Express.js for submission, retrieval, and aggregation using MongoDB pipelines, integrated with Chart.js visualizations.',
-      'Enhanced platform reliability with SQL-based metadata backups, achieving 100% recovery in simulated failovers.',
-      'Delivered secure, role-based dashboards with JWT authentication for admins and department heads.',
-      'Migrated a legacy PHP site to React + Node.js, reducing page load time by 45% and achieving full ARIA/WCAG accessibility compliance.',
-      'Tech Stack: React, Node.js, Express.js, MongoDB, SQL, JWT, Chart.js, Tailwind CSS, MUI.'
-    ]
-  },
-  {
-    company: 'DEFENCE RESEARCH AND DEVELOPMENT ORGANIZATION',
-    role: 'Software Engineer Intern @DRDO',
-    duration: 'Oct 2022 – Mar 2023 | Hyderabad, India',
-    details: [
-      'Built a secure satellite image segmentation viewer using Python (OpenCV) with GeoTIFF rendering, deployed via a restricted-access portal for enhanced remote analysis capabilities.',
-      'Developed secure Node.js/Express APIs with role-based access control, compliant with defense-grade security policies.',
-      'Created multilingual (English & Hindi), accessibility-compliant Angular components to improve operator usability.',
-      'Built reusable, validated form modules enabling rapid rollout of 12+ secure data intake workflows.',
-      'Tech Stack: Python, OpenCV, GeoTIFF, Node.js, Express.js, Angular, MongoDB, JWT.'
-    ]
-  }
+  company: 'OREGON STATE UNIVERSITY',
+  role: 'Full Stack Developer @ OSU',
+  duration: 'Sep 2023 – Jun 2025 | Corvallis, OR',
+  details: [
+    'Maintained and improved the Disability Access Services website with React, HTML, CSS, and JavaScript, supporting digital accessibility for over 3000 students and staff.',
+    'Maintained user authentication/authorization systems leveraging JWT and OAuth, supporting secure, role-based access for students and staff.',
+    'Automated accommodation requests and notification systems using Node.js, and led usability and accessibility audits to enhance user experience and WCAG 2.1/ADA compliance.',
+    'Converted Word and PDF course materials into accessible, screen-reader-friendly HTML for disabled students, promoting digital inclusion and usability.',
+    'Tech Stack: React, Node.js, HTML, CSS, JavaScript, JWT, OAuth.'
+  ]
+},
+{
+  company: 'OREGON STATE UNIVERSITY',
+  role: 'Research Assistant @ OSU',
+  duration: 'Feb 2024 – Jun 2024 | Corvallis, OR',
+  details: [
+    'Increased wildlife abundance prediction accuracy by 40% by developing ensemble machine learning workflows (Random Forests, deep learning) on 60k+ noisy citizen science datasets (Python, R).',
+    'Enhanced insight into species patterns by engineering contextual spatial and temporal features, visualizing data with matplotlib and ggplot2.',
+    'Tech Stack: Python, R, Random Forests, Deep Learning, Matplotlib, ggplot2.'
+  ]
+},
+{
+  company: 'DEFENCE RESEARCH AND DEVELOPMENT ORGANIZATION',
+  role: 'Research Assistant @ DRDO',
+  duration: 'Jun 2022 – Mar 2023 | Hyderabad, India',
+  details: [
+    'Developed and optimized YOLOv3-based object detection models for military vehicle and drone recognition, integrating OpenCV for image processing to reduce misclassification rates by 75%.',
+    'Implemented a geo-overlay dashboard with Raspberry Pi, streaming real-time video and GPS data to improve operational awareness.',
+    'Validated model performance and authored technical documentation for use in defense-grade AI systems, collaborating with engineers on deployment and integration.',
+    'Tech Stack: Python, OpenCV, YOLOv3, Raspberry Pi.'
+  ]
+}
+
 ];
 
 export default function Contact() {
